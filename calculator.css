@@ -1,5 +1,5 @@
 .btn-radius {
-  padding: 0;
+  padding: 4px;
   margin: 0;
   border-radius: 4px;
   border-color: orange;
@@ -11,8 +11,14 @@ table {
   height: 300px;
   margin-top: 10%;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-spacing: 2px;
 }
 
 .width-input {
   width: 100%;
 }
+
+button:hover {
+  background-color: rgb(241, 183, 74);
+}
+
