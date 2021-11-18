@@ -1,4 +1,4 @@
-let tem;
+let tem = "";
 function text() {
   let inputtext = document.getElementById("text").value;
   let len = inputtext.length;
